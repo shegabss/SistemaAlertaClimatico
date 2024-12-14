@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.HelloController" spacing="10" alignment="CENTER">
+    <TextField fx:id="cidadeField" promptText="Nome da Cidade" />
+    <Button fx:id="enviarButton" text="Enviar" onAction="#handleEnviar"/>
+</VBox>
